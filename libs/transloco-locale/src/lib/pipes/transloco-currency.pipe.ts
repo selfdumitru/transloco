@@ -35,7 +35,7 @@ export class TranslocoCurrencyPipe
    */
   transform(
     value: number | string,
-    display: 'code' | 'symbol' | 'name' = 'symbol',
+    display: 'code' | 'symbol' | 'narrowSymbol' | 'name' = 'symbol',
     numberFormatOptions: NumberFormatOptions = {},
     currencyCode?: Currency,
     locale?: Locale
